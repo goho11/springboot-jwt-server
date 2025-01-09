@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+// 요청 헤더의 JWT(Json Web Token)를 파싱 및 검증하여 사용자 인증 처리
 @RequiredArgsConstructor
 public class JwtAuthorizationFilter implements Filter {
 
